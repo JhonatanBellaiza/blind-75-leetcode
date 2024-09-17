@@ -16,6 +16,7 @@ public class FindMinimumRotatedSortedArray {
         // }
         // return target;
 
+        // 0(log n) Complexity
         int n = nums.length;
         int left = 0;
         int rigth = n-1;
